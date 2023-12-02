@@ -1,4 +1,9 @@
-# hands-on-lab-neo4j-and-vertex-ai
+# Hands-on Workshop: Generative AI and Graph Database
+
+[Original repository](https://github.com/neo4j-partners/hands-on-lab-neo4j-and-vertex-ai)
+
+## Introduction
+
 Neo4j is the [leading graph database](https://db-engines.com/en/ranking/graph+dbms) vendor.  We’ve worked closely with Google Cloud engineering for years.  Our products, AuraDB and AuraDS are offered as managed services on Google Cloud.  Neo4j Enterprise Edition, which includes Graph Database, Graph Data Science and Bloom is offered in the [Google Cloud Marketplace](https://console.cloud.google.com/marketplace/browse?q=neo4j).
 
 In this hands on lab, you’ll get to learn about [Neo4j](https://neo4j.com/) and [Google Cloud Vertex AI](https://cloud.google.com/vertex-ai).  The lab is intended for data scientists and data engineers.  We’ll walk through deploying Neo4j and Vertex AI in a Google Cloud account.  Then we’ll get hands on with a real world dataset.  First we'll use generative AI to parse and load data.  Then we'll show how to layer a chatbot powered by generative AI with LangChain over the knowledge graph.  We'll even use the new vector search and index functionality in Neo4j with Vertex AI for semantic search.  You’ll come out of this lab with enough knowledge to apply graph generative AI to your own datasets.
@@ -6,9 +11,6 @@ In this hands on lab, you’ll get to learn about [Neo4j](https://neo4j.com/) an
 We’re going to analyze the quarterly filings of asset managers with $100m+ assets under management (AUM).  These are regulatory filings made to the Securities and Exchange Commission’s (SEC) EDGAR system.  We’re going to show how to load that data from a Google Cloud Storage bucket into Neo4j.  We’ll then explore the relationships of different asset managers and their holdings using the Neo4j Browser and Neo4j’s Cypher query language.
 
 If you’re in the capital markets space, we think you’ll be interested in potential applications of this approach to creating new features for algorithmic trading, understanding tail risk, securities master data management and so on.  If you’re not in the capital markets space, this session will still be useful to learn about building machine learning pipelines with Neo4j and Vertex AI.
-
-## Venue
-These workshops are organized onsite in a Google office.
 
 ## Duration
 3 hours.
